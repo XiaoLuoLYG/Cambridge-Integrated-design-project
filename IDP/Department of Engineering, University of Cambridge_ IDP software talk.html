@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0057)http://www-h.eng.cam.ac.uk/help/tpl/IDP/softwaretalk.html -->
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<!-- change title and metadata for each page here -->
+<title>Department of Engineering, University of Cambridge: IDP software talk</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<!-- remove next line if your web server adds charset-->
+
+<link rel="stylesheet" href="./Department of Engineering, University of Cambridge_ IDP software talk_files/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="./Department of Engineering, University of Cambridge_ IDP software talk_files/cued.css" type="text/css" media="all">
+<link rel="stylesheet" href="./Department of Engineering, University of Cambridge_ IDP software talk_files/print.css" type="text/css" media="print">
+<link rel="Shortcut Icon" href="http://www.cam.ac.uk/templates/favicon.ico">
+<!--[if IE 6]><link rel="stylesheet" href="global/style/ie6.css" type="text/css" media="screen" /><script type="text/javascript" src="global/js/minmax.js"></script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="global/style/ie7.css" type="text/css" media="screen" /><![endif]-->
+
+
+</head><body class="home">
+
+<div id="skip"> <a href="http://www-h.eng.cam.ac.uk/help/tpl/IDP/softwaretalk.html#skip-content" accesskey="2">Skip to content</a>&nbsp;|&nbsp;<a href="http://www.cam.ac.uk/site/accesskeys.html" accesskey="0">Access key help</a> </div><div id="header">
+  <div id="branding"><a href="http://www.cam.ac.uk/" accesskey="1"><img src="./Department of Engineering, University of Cambridge_ IDP software talk_files/identifier.gif" alt="University of Cambridge" class="ucam"></a>
+  </div>
+
+ <div id="site-search">
+      <form method="get" action="http://search.cam.ac.uk/web">
+       <fieldset>
+        <label for="search-term">Search</label>
+        <input name="query" type="text" id="search-term" accesskey="4" value="">
+        <input type="hidden" name="inst" value="ENG">
+        <input id="search-button" src="./Department of Engineering, University of Cambridge_ IDP software talk_files/button-search.gif" value="Search" alt="Search" title="Search" type="image">
+       </fieldset>
+
+      </form>
+
+     <ul>
+     <li class="last"><a href="http://www.eng.cam.ac.uk/people/">Contact
+     us</a></li>
+     </ul>
+
+    </div><!-- #site-search ends -->
+</div>
+
+<div id="dept-title">
+  <h1><a href="http://www.eng.cam.ac.uk/">Department of Engineering</a></h1>
+</div>
+<div id="container"> <a name="skip-content" id="skip-content"></a>
+ <div id="content">
+  <div id="content-primary">
+    <ul id="nav-breadcrumb">
+    <li class="first"><a href="http://www.cam.ac.uk/">University of Cambridge</a></li>
+  </ul>
+
+<style type="text/css">
+.caption { font-size: 80%; background-color:#dddddd;
+                  font-family: Verdana, Arial, sans-serif;
+                  text-align: center; }
+tt {color:blue;}
+</style>
+
+
+<!-- C O N T E N T -->
+<h1> IDP software talk</h1>
+<!-- <p>http://www-h.eng.cam.ac.uk/help/tpl/IDP/softwaretalk.html</p> -->
+<h2>Teams and Scheduling</h2>
+<ul>
+<li> One team managed to write 3000 lines, but you needn't write much code. It's up to you. The vacation Mars Lander exercise was supposed to be preparation for this task.</li> 
+<li> Manage Expections - In the first Mich competition, 8 teams (out of 12)  got 0. Why 0? Because we didn't give negative points.</li> 
+<li> Feedback last year not infrequently mentioned difficulties with distributing the workload in a standard credit culture. The Software team (especially in the final week) can end up having to compensate for problems elsewhere. Plan accordingly.</li>
+
+<li>Rapid Prototyping implies not waiting for the final chassis to appear before running your code. Use cardboard if necessary. Bolt 2 strips of metal together and slobber it with tape. Get the robot moving and turning as soon as possible.<table><tbody><tr><td><img src="./Department of Engineering, University of Cambridge_ IDP software talk_files/cardboardrobot.jpg" style="height:270px"></td><td>&nbsp;</td><td><img src="./Department of Engineering, University of Cambridge_ IDP software talk_files/minibot.jpg" style="width:300px;"></td></tr></tbody></table> </li>
+
+<li> GitLab (like you used in the 1A Lent Python course) is an option. There's now a Cambridge University offering - see  <a href="https://gitlab.developers.cam.ac.uk/">https://gitlab.developers.cam.ac.uk/</a> which also has utilities as such <a href="https://gitlab.developers.cam.ac.uk/help/user/project/issue_board.md">The GitLab Issue Board</a> (can be used as a Kanban or a Scrum board)</li>
+</ul>
+
+<h2>Testing</h2>
+<p>Testing isn't a contingency measure. It should be integrated into you programs
+and procedures. If 80% of your time is going to be spent testing and debugging,
+anything that facilitates testing is worth doing. </p>
+<ul>
+<li> Maybe you could begin as you did with Lego, investigating the capabilities of each device. Use realistic settings - for example, the ultra-sound and light sensors may be affected by people crowding around tables.</li>
+<li> Develop a test suite. Don't assume that once your robot has passed a test, it won't fail in future. Can your robot do 4 90° turns and return to the start? If so, keep the test program and try it whenever chassis loading changes. Try it at the start of each session. </li> 
+<li>Test early. Design for easy testing. Test whether components are still alive! (quite often they get damaged)</li>
+<li> Write test suites that others can use without you being around. You shouldn't need to be present when mechanics test their pick-up mechanism. Provide easy ways for them to tweak parameters in the code if necessary.</li>
+<li>Devise test procedures to deal with common problems. For example, suppose your robot starts failing because one motor has stopped. Is it a hardware, software or electronics problem? Try
+<ul>
+<li>Plugging a battery into a motor directly</li>
+<li>Swapping the motors around to see if the same one stops</li>
+<li>Taking off all the electronics boards and trying your first motor test program again</li>
+</ul>
+</li></ul>
+
+
+<h2>Integration</h2> 
+<p>Rapid Prototyping implies constant integration - don't leave all the integration to the end, on the assumption that it will be straightforward.</p>
+<ul>
+<li> Adding superstructure affects light conditions and balance</li>
+<li> motor interference can affect sensors</li>
+<li> metal conducts! One team blew 3 Arduinos before realising that their metal chassis conducted</li>
+<li> if you draw too much power from the Arduino (adding a servo, for example) the
+  Arduino can brown out, causing mysterious symptoms.</li>
+</ul>
+
+<h2>Programming</h2>
+<ul>
+<li>Check that you can download an run a simple program from the development environment you want to use (maybe your laptop) to the Arduino you'll eventually be using (the one with WiFi). Teams sometimes find that downloading fails between certain laptops and Arduinos. The sooner you check this the better.</li>
+<li> About a third of teams use Python (using the Arduino as a slave). Python number crunching is better on a laptop. But you only need number crunching if you're using the camera.</li>
+<li> The online Ardino examples (especially Dr Crisp's examples on Moodle) are the places to start. The Ardino IDE (Integrated Development Environment)) on Linux is well behind the Windows version. The environment's slightly quirky. C++ that wouldn't normally work compiles because the Arduino IDE does some magic behind the scenes - see 
+<ul>
+   <li><a href="http://arduino.land/FAQ/content/1/3/en/what-does-the-ide-change-in-my-sketch.html">What does the IDE change in my sketch</a></li>
+   <li><a href="https://arduino.github.io/arduino-cli/sketch-build-process/">Arduino Build Process</a></li>
+</ul>
+for details.
+</li>
+<li>If there's more than one library available to support sensors, servos, etc, it may be worth investigating the options. For example, some libraries might filter out anomalous blips in ultra-sound readings. Note that the library for using servos is generic - its notion of a degree may not match reality.</li>
+<li>The following documents may also be useful -
+<ul>
+   <li><a href="http://www-h.eng.cam.ac.uk/help/tpl/IDP/arduinomultiplesourcefiles.html">Using Multiple files</a></li>
+   <li><a href="http://www-h.eng.cam.ac.uk/help/tpl/IDP/arduinointerrupts.html">Interrupts</a></li> 
+</ul>
+</li>
+</ul>
+
+<h2>Navigation issues</h2>
+<p>Many options</p>
+<ul>
+<li>Camera</li>
+<li>Use the onboard IMU with a 3-axis accelerometer, a 3-axis gyroscope, (and compass?)</li> 
+<li>Record commands to motors - so you can re-run in reverse?</li>
+<li>Use Optical encoders</li>
+<li>Use right-angles and known navigational points (walls, corners, etc)</li>
+</ul>
+
+<h2>Programming tips</h2>
+<ul>
+<li>Don't trust a single reading - a spike may be an anomaly. Maybe take the median of the last few readings? Or use a moving average?</li>
+<li> Never get stuck - in a loop, or against a wall. For example, suppose your robot has to keep going until it gets within "10" units from a wall. Doing 
+<pre>while distance&gt;10:
+   distance=sensor_reading()
+</pre>
+<p>is risky - suppose the distance is always than 10?  In the first year, your Python loops often counted how many times they were excuting, like this, so that 
+you couldn't get stuck.</p>
+<pre>count=0
+while distance&gt;10 and count&lt;10000:
+   distance=sensor_reading()
+   count=count+1
+if count==10000:
+   # Never got close. Time for plan B
+</pre>
+</li>
+<li>Don't generate unnecessary traffic. Suppose you're trying to follow a line. You might have C++ code like this
+<pre>while (x=readsensors()) {
+   if (x==TOO_FAR_LEFT) {
+      rightmotor(40);
+      leftmotor(50);
+   }
+   else if (x==TOO_FAR_RIGHT) {
+      rightmotor(50);
+      leftmotor(40);
+   }
+   else {
+      rightmotor(40);
+      leftmotor(40);
+   }    
+}
+</pre>
+The problem with this is that if the loop is run a 100 times a second, and the robot stays on the line, the motors are being unnecessarily told a 100 times a second to go at 40. As well as filling the wifi bandwidth, you risk overworking the arduino boards. You need only send commands to the motors when their speed needs to change. This isn't hard to do. For example, if <code>rightmotor</code> is written like this -
+<pre>int old_rightmotor_speed=0;
+...
+void rightmotor(int newspeed) {
+  if (newspeed==old_rightmotor_speed)
+     return;
+  else {
+     // send a command that sets the right motor speed to the new speed, then ...
+     old_rightmotor_speed=newspeed;
+  }
+}
+</pre>
+- then the motor is only sent commands when necessary, which can reduce network traffic by orders of magnitude.
+</li>
+</ul>
+
+<h2>Camera</h2>
+<ul>
+  <li> About a third of teams use it. You can take a still at the start, stills on demand, or use <a href="http://www2.eng.cam.ac.uk/~tpl/idp.3gp">video</a> (but check Frames/sec rate).</li>
+  <li>2 blue leads hanging from a column by the tables provide the output from the cameras above tables 2 and 3. Your laptop may already have the driver required to view the image. The camera on Table 1 is available via <a href="http://idpcam1.eng.cam.ac.uk:8080/">http://idpcam1.eng.cam.ac.uk:8080</a></li>
+  <li> Teams use <a href="https://opencv.org/">openCV</a>  (or simpleCV). Note that a short, simple-looking program can involve heavy CPU load.</li>
+  <li>The best team last year investigated the use of the camera then rejected it.</li> 
+</ul>
+<p>In 2020 L2 the top 3 teams used the camera. In 2020 L1 3 of the 4 bottom teams used the camera.</p>
+
+
+
+<h2>Wifi</h2>
+<ul>
+  <li>Not a necessity. Useful for debugging</li>
+  <li>Start with simple examples - see the Wifi section of the <a href="https://www.arduino.cc/en/Tutorial/LibraryExamples">Arduino examples</a>. Beware of security issues - you don't want other teams taking over your robot. Have a look at the <a href="https://www.arduino.cc/en/Reference/ClientRemoteIP">remoteIP()</a> function of <code>client</code>, etc.</li>
+<li>If you're using UDP, remember that by design it's not reliable (one team found that the computer-to-arduino route was much more reliable than the other direction. 3 signals/sec might be the highest reliable rate).</li>
+</ul>
+<p>Hot-spot contention seems to have graver effects than contention on the CUED WiFi network. Hot-spot contention is worst at competition time ...</p>
+
+<p>See the <a href="http://www-h.eng.cam.ac.uk/help/tpl/IDP/idpwifi.html">IDP Wifi page</a> for details.</p>
+
+
+<h2>General points</h2>
+<ul>
+<li> Change one thing at a time</li>
+<li> Use classical standard solutions</li>
+<li> Redundancy good! If using a single sensor is unreliable, use 3?  The fallback option of dead reckoning + walls for navigation is available.</li>
+<li> Keep the main loop short (the more times/second you read sensors, the better). Keep interrupt handler routines short (while in a handler, interrupts are ignored)</li>
+<li> Navigation is crucial. The rest of the project fails if navigation falls.
+  Once it works, make sure it keeps working.</li>
+<li> PID control for linetracking/wall tracking is probably overkill - students tend to spend much time tuning PID parameters often with limited success.</li>
+<li>Be alert for subteam decisions that affect other subteams</li>
+<li>Identify critial resources - availability of tables; chassis (make 2?)</li>
+</ul>
+<h2>M1 2020 points</h2>
+<ul>
+<li></li>
+</ul>
+
+  </div> <!-- content -->
+
+  <ul id="site-info">
+    <li class="copy">@ Cambridge University, Engineering Department, Trumpington Street, Cambridge CB2 1PZ, UK (<a href="http://www.eng.cam.ac.uk/visitors/">map</a>)<br>
+
+     Tel: +44 1223 332600, Fax: +44 1223 332662 <br>
+     Information provided by <a href="http://www.eng.cam.ac.uk/contact_addresses.html">tl136</a></li>
+    <!-- <li class="link last"><a href="/">Privacy</a></li>
+    <li class="link"><a href="/">Accessibility</a></li> -->
+  </ul>
+</div> <!-- container -->
+
+</div></body></html>

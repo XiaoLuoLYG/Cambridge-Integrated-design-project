@@ -1,0 +1,440 @@
+/* CUED overrides */
+
+/* PNT change max width from 1214 to 900 */
+div#container {
+	background: #fff;
+	min-width: 694px;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px 0 20px;
+	border-left: 1px solid #d3d3b1;
+	border-right: 1px solid #d3d3b1;
+	border-bottom: 1px solid #d3d3b1;
+}
+
+/* PNT change max width from 1214 to 900 */
+div#dept-title {
+	background: #9c9;
+	min-width: 694px;
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px 0 20px;
+	border-left: 1px solid #d3d3b1;
+	border-right: 1px solid #d3d3b1;
+	border-bottom: 1px solid #d3d3b1;
+}
+
+/* PNT change max width from 1214 to 900 */
+div#navtabs {
+	background: #d3d3b1;
+	min-width: 694px;
+	max-width: 900px;
+	line-height: 1em;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 20px 0 20px;
+	border-left: 1px solid #d3d3b1;
+	border-right: 1px solid #d3d3b1;
+}
+
+/* PNT change max width from 1254 to 940 */
+div#header {
+	height:70px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding:0;
+	background: #fff;
+	min-width: 734px;
+	max-width: 940px;
+
+	/*border-bottom: 1px solid #cdc5bc;*/
+	border-left: 1px solid #d3d3b1;
+	border-right: 1px solid #d3d3b1;
+}
+
+/* PNT change width from 62% to 100% */
+div#content-primary {
+	float: left;
+	width: 100%;
+	padding-right: 1em;
+}
+
+/* PNT change vertical position of background image 0.75 to 0.65*/
+div#content-primary dl.menu dd a {
+	display: block;
+	padding: 0.6em 15px 0.45em 37px;
+	background: white url(../images/icon-arrow-home-menu.gif) no-repeat 8px 0.65em;
+	text-decoration: none;
+}
+/* PNT change vertical position of background image 0.75 to 0.65*/
+div#content-primary dl.menu dd a:hover {
+	background: #f3f7ff url(../images/icon-arrow-home-menu-orange.gif) no-repeat 8px 0.65em;
+	text-decoration: none;
+}
+
+
+div#content-primary dl.links {
+	border-top: 1px solid #e4eaea;	
+	border-bottom: 1px solid #e4eaea;	
+	float: left;
+	width: 100%;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+div#content-primary dl.links dt {
+	padding: 0.75em 20px 0.6em 47px;
+	font-size: 1.2em;
+	background: url(../images/icon-quick-links.gif) no-repeat 20px 55%;
+	margin-left: 2px;
+	/*border-top: 1px solid #d3d3b1;
+	text-transform: uppercase;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #48605f;
+}
+
+div#content-primary dl.section dt {background: url(../images/icon-section.gif) no-repeat 20px 55%;}
+
+div#content-primary dl.links dd {
+	border-top: 1px solid #e4eaea;
+	margin-left: 1px;
+}
+
+div#content-primary dl.links dd a {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	/* amended by DMR (Studio24) 24.01.08*/
+	padding: 0.2em 20px 0.1em 47px;
+	display: block;
+	height: 100%;
+	/* amended by DMR (Studio24) 24.01.08*/
+	background: url(../images/icon-arrow-nav-primary.gif) no-repeat 20px 10.5px;
+	text-decoration: none;
+	color: #333;
+}
+
+div#content-secondary dl.links dd a:hover {
+	text-decoration: none;
+	/* amended by DMR (Studio24) 24.01.08*/
+	background: #f3f7ff url(../images/icon-arrow-nav-primary.gif) no-repeat 20px 10.5px;
+	color: #063;
+}
+
+
+div.menu-wrapper {
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+div.spotlight-wrapper {
+	width: 100%;
+	float: left;
+	background-color: #E8F0FF; 
+	border: 2px solid #aaa;
+	padding-bottom: 0.7em;
+}
+
+
+/* PNT - In directory listings, have file icons displayed inline */
+div.dirlist img {
+        display: inline
+}        
+
+
+/* From univ styles */
+/*background-color: #e8f0ff*/
+.spotlight
+{
+float: left;
+margin-top: 0em;
+margin-right: 0em;
+margin-bottom: 0.5em;
+margin-top: 0.3em;
+margin-left: 2.5%;
+min-height: 200px;
+width: 29%;
+background-color:#ffffff;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+padding-bottom:0.5em;
+padding-top:1em;
+padding-right:1%;
+position: relative;
+}
+
+div.spotlight dd img
+{
+margin-top: 0pt;
+margin-right: 0pt;
+margin-bottom: 0.4em;
+margin-left: 0.4em;
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+display: block;
+height: 80px;
+background-color: white;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+border-top-width: 1px;
+border-right-width-value: 1px;
+border-right-width-ltr-source: physical;
+border-right-width-rtl-source: physical;
+border-bottom-width: 1px;
+border-left-width-value: 1px;
+border-left-width-ltr-source: physical;
+border-left-width-rtl-source: physical;
+border-top-style: solid;
+border-right-style-value: solid;
+border-right-style-ltr-source: physical;
+border-right-style-rtl-source: physical;
+border-bottom-style: solid;
+border-left-style-value: solid;
+border-left-style-ltr-source: physical;
+border-left-style-rtl-source: physical;
+border-top-color: #dddddd;
+border-right-color-value: #dddddd;
+border-right-color-ltr-source: physical;
+border-right-color-rtl-source: physical;
+border-bottom-color: #dddddd;
+border-left-color-value: #dddddd;
+border-left-color-ltr-source: physical;
+border-left-color-rtl-source: physical;
+}
+
+/* New styles for CUED */
+
+div#hp-banner {
+    overflow:hidden;
+	height: 150px;
+	z-index: 1;
+}
+
+div#hp-banner-overlay {
+  position:relative; 
+  float:right; 
+  width: 50%; 
+  height: 100%; 
+  z-index: 2; 
+  opacity: 0.57;
+  filter: alpha(opacity=57); 
+  -moz-opacity: 0.57; 
+  background-color: #4C8863
+}
+
+div#hp-banner-tagline {
+  position:relative;
+  float:right; 
+  left: 50%; 
+  width: 48%; 
+  top: 18%; 
+  height: 100%; 
+  padding-left: 2%; 
+  z-index: 3; 
+  color: #ffffff; 
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  font-size: 1.75em; 
+  line-height: normal
+}
+
+
+/* Based on menu dt */
+.hp-news-head
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.05em;
+font-weight: bold;
+line-height: normal;
+padding-top: 0.5em;
+padding-right: 15px;
+padding-bottom: 0.2em;
+padding-left: 0.4em;
+color: #cc6600;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+margin-left: 1.7%;
+margin-bottom: 0px;
+}
+
+.hp-news-head a
+{color: #cc6600;
+}
+
+
+body.cued-two-equal-col div#content div#content-primary div#col1 {
+  float:left;
+  width: 47%;
+  padding-right: 10px;
+  background:url(../images/bg-home-menu-top.gif) repeat-y 100% 0;
+}  
+
+body.cued-two-equal-col div#content div#content-primary div#col2 {
+  float:right;
+  width: 50%;
+  height: 100%;
+ /* border-left: 1px solid #ccc;*/
+  padding-left: 8px;
+
+}  
+
+/* CUED styles for left-hand menu in two-equal-col format */
+div#col1 dl.menu, div#col1 dl.menu-notitle {
+	float: left;
+	margin: 0.6em 3.4% 0 0;
+	width: 100%;
+	background:none;
+	padding-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	background:url(../images/bg-home-menu-top.gif) repeat-x 0 100%;
+}
+
+div#col1 dl.menu dt {
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: normal;
+	padding: 0.4em 15px 0.3em 0.4em;
+	color: #c60;
+	background: #fff;
+	margin-bottom: 0;
+	background:url(../images/bg-home-menu-top.gif) repeat-x 0 100%;
+}
+
+div#col1 dl.menu dd, div#col1 dl.menu-notitle dd {
+	margin: 0;
+	padding-top: 1px;
+	padding-bottom: 0;
+	background: none;
+	font-size: 1.0em;
+	line-height: 1.0em;
+	font-weight: normal;
+}
+div#col1 dl.menu-notitle dd {
+    font-weight: bold;
+}
+div#col1 dl.menu dd a, div#col1 dl.menu-notitle dd a {
+	display: block;
+	padding: 0.6em 15px 0.45em 37px;
+	background: white url(../images/icon-arrow-home-menu.gif) no-repeat 8px 0.55em;
+	text-decoration: none;
+}
+
+div#col1 dl.menu dd a:hover, div#col1 dl.menu-notitle dd a:hover {
+	background: #f3f7ff url(../images/icon-arrow-home-menu-orange.gif) no-repeat 8px 0.55em;
+	text-decoration: none;
+}
+
+div.research-image {
+	margin-top: 1.5em;
+}	
+
+div.research-image img, div.research-image a  {
+    margin-top: 1.5em;
+	margin-bottom: 0.1em;
+	float:none;
+	clear:none;
+	display:inline;
+}
+
+.cap {
+    font-size: 80%;
+	color: #808080;
+	margin-top: 0.1em;
+	text-align: left;
+}
+
+
+/*Taken from University style v.4 */
+
+/* =nav-primary sub-nav
+-------------------------------------------------------------- */
+
+ul#nav-primary li.active {
+/* out at last tweak
+	background: url(../images/bg-nav-primary-sub.jpg) repeat-y 100% 0;	
+*/ 
+	background:#fff;
+}
+
+ul#nav-primary li.active a {
+	border: none;
+	font-weight: bold;
+	color:#c60;
+}
+
+ul#nav-primary li.active ul,
+ul#nav-primary li ul {
+	font-size: 1em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0.3em 0 0 0;
+}
+
+ul#nav-primary li.active ul li,
+ul#nav-primary li ul li {
+	border: none;	
+	border-top: solid #E8F0FF 1px;
+	padding: 4px 0 4px 0;
+}
+
+/* Style for unselected secondary nav link */
+ul#nav-primary li.active ul li a, 
+ul#nav-primary li.active ul li a:hover,
+ul#nav-primary li ul li a, 
+ul#nav-primary li ul li a:hover {
+	padding: 0 20px 0 26px;
+	border: none;
+	color: #036;
+	font-weight: normal;
+}
+
+/* Style for unselected third level nav link */
+ul#nav-primary li.active ul li.active ul li a, 
+ul#nav-primary li.active ul li.active ul li a:hover,
+ul#nav-primary li.active ul li ul li a, 
+ul#nav-primary li.active ul li ul li a:hover,
+ul#nav-primary li ul li ul li a, 
+ul#nav-primary li ul li ul li a:hover {
+	padding: 0 20px 0 47px;
+	border: none;
+	color: #036;
+	font-size: 95%;
+	font-weight: normal;
+	background:none;
+}
+ul#nav-primary li.active ul li a:hover,
+ul#nav-primary li ul li a:hover {
+	color: #c60;
+	text-decoration: underline;
+}
+
+/* Style for selected secondary nav link */
+ul#nav-primary li.active ul li.active a, 
+ul#nav-primary li.active ul li.active a:hover,
+ul#nav-primary li ul li.active a, 
+ul#nav-primary li ul li.active a:hover {
+	background: url(../images/icon-arrow-nav-primary.gif) no-repeat 10px 5px;
+	color: #c60;
+	font-weight: bold;
+}
+
+/* Style for selected third-level nav link */
+ul#nav-primary li.active ul li.active ul li.active a, 
+ul#nav-primary li.active ul li.active ul li.active a:hover,
+ul#nav-primary li ul li.active ul li.active a, 
+ul#nav-primary li ul li.active ul li.active a:hover {
+	background: url(../images/icon-arrow-nav-primary.gif) no-repeat 30px 5px;
+	color: #ae5803;
+	font-size: 95%;
+	font-weight: bold;
+}
+
